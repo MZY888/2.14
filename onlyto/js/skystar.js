@@ -11,9 +11,7 @@ var words=[
     '与君重逢',
     '一日不见兮',
     '思之若狂',
-    '好想回到那个夏天',
-    '趴在桌子上偷偷看你',
-    '偷偷表白一个叫dmz的女孩',
+    '偷偷表白一个叫yxp的女孩',
     '你曾是我灰色人生中的一道彩虹',
     '柳絮空缱绻',
     '南风知不知',
@@ -100,7 +98,7 @@ window.addEventListener('load',init);
 let textone = document.querySelector('.textone').querySelector('h1');
       let texttwo = document.querySelector('.texttwo').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
-
+	  
       setTimeout(function(){
         textone.innerHTML = '今晚，整片星空将为你一人闪烁';
           textone.style.color = '#E8F9FD';
@@ -112,9 +110,9 @@ let textone = document.querySelector('.textone').querySelector('h1');
           texttwo.innerHTML = '';
       },28000)
       setTimeout(function(){
-        textone.innerHTML = '从前从前,有个人爱你很久';
-        texttwo.innerHTML = '但偏偏，风渐渐';
-        textthree.innerHTML = '把距离吹的好远';
+        textone.innerHTML = '天上有多少星光';
+        texttwo.innerHTML = '但天上只有一个月亮';
+        textthree.innerHTML = '世间只有一个你';
       },112500)
 
 
