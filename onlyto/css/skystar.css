@@ -11,7 +11,7 @@ body {
     overflow: hidden;
     perspective: 1300px;
 }
-.text {
+.texttwo {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -21,6 +21,12 @@ body {
     position: absolute;
     left: 50%;
     top: 40%;
+    transform: translateX(-50%);
+}
+.textthree {
+    position: absolute;
+    left: 50%;
+    top: 60%;
     transform: translateX(-50%);
 }
 :root {

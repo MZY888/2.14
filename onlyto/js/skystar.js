@@ -13,7 +13,8 @@ var words=[
     '思之若狂',
     '好想回到那个夏天',
     '趴在桌子上偷偷看你',
-    '你是我灰色人生中的一道彩虹',
+    '偷偷表白一个叫dmz的女孩',
+    '你曾是我灰色人生中的一道彩虹',
     '柳絮空缱绻',
     '南风知不知',
     '我见青山多妩媚',
@@ -97,13 +98,24 @@ function init(){
 }
 window.addEventListener('load',init);
 let textone = document.querySelector('.textone').querySelector('h1');
-      let text = document.querySelector('.text').querySelector('h1');
+      let texttwo = document.querySelector('.texttwo').querySelector('h1');
+      let textthree = document.querySelector('.textthree').querySelector('h1');
+
       setTimeout(function(){
         textone.innerHTML = '今晚，整片星空将为你一人闪烁';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
-          text.innerHTML = '';
+          texttwo.style.color = '#E8F9FD';
+          texttwo.style.fontFamily = '楷体'
+          textthree.style.color = '#E8F9FD';
+          textthree.style.fontFamily = '楷体'
+          texttwo.innerHTML = '';
       },28000)
+      setTimeout(function(){
+        textone.innerHTML = '从前从前,有个人爱你很久';
+        texttwo.innerHTML = '但偏偏，风渐渐';
+        textthree.innerHTML = '把距离吹的好远';
+      },112500)
 
 
  
